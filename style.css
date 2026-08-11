@@ -251,3 +251,34 @@ footer {
         font-size: 38px;
     }
 }
+/* Section Contact & Button Styling */
+.contact-section {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.btn-contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background-color: #d4ff00; /* Warna hijau neon sesuai tema websitemu */
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.btn-contact:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+}
